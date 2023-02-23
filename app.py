@@ -1,6 +1,5 @@
 import robothub_depthai
 import robothub
-import datetime
 
 def callback(packet):
     for imu_data in packet.data:
